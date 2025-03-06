@@ -23,6 +23,7 @@ import { EditStudentComponent } from './components/edit-student/edit-student.com
 import { TakeAttendanceComponent } from './components/take-attendance/take-attendance.component';
 import { ViewAttendanceComponent } from './components/view-attendance/view-attendance.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -51,6 +52,7 @@ import { FormsModule } from '@angular/forms';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
