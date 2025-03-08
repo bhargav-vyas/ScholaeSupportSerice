@@ -24,6 +24,7 @@ import { TakeAttendanceComponent } from './components/take-attendance/take-atten
 import { ViewAttendanceComponent } from './components/view-attendance/view-attendance.component';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
+import { HidePasswordPipe } from './pipe/hide-password.pipe';
 
 @NgModule({
   declarations: [
@@ -46,7 +47,8 @@ import { HttpClientModule } from '@angular/common/http';
     AllStudentComponent,
     EditStudentComponent,
     TakeAttendanceComponent,
-    ViewAttendanceComponent
+    ViewAttendanceComponent,
+    HidePasswordPipe
   ],
   imports: [
     BrowserModule,
